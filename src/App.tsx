@@ -1,13 +1,13 @@
 import { CssBaseline } from "@mui/material";
-import ProgAppBar from "./components/App-Bar";
-import GroupedTables from "./components/Group-Tables";
+import ProgAppBar from "./components/CrncyAppBar";
+import CrncyApiCall from "./hooks/CrncyCall";
 
 function App() {
   return (
     <>
       <ProgAppBar />
       <CssBaseline />
-      <GroupedTables />
+      <CrncyApiCall />
     </>
   );
 }
